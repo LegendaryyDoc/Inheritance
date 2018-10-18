@@ -34,7 +34,6 @@ void Sprite::Draw()
 		{
 			currentFrame = 0;
 		}
-
 	}
 	DrawTexture(spriteCells[currentFrame], x, y, WHITE);
 }
